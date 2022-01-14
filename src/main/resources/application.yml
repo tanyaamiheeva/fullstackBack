@@ -8,5 +8,3 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
     generate-ddl: true
-  liquibase:
-    change-log: classpath*:db/changelog/db.changelog-master.yml
